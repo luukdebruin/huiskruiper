@@ -1,0 +1,12 @@
+{
+  "name": "huiskruiper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/luukdebruin/huiskruiper.git",
+  "author": "Luuk de Bruin <luuk.debruin15@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
