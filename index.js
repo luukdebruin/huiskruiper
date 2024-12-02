@@ -4,4 +4,10 @@ function main() {
     log('Running this')
 }
 
-main()
+(() => {
+    main()
+  
+    setInterval(() => {
+      main();
+    }, 1 * 60 * 1000); // 1 minutes
+})();
